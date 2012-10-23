@@ -1,9 +1,0 @@
-This ~/bin/ folder is used to put the small script I write:
-
-cc: used to ssh to my server changecong.com
-
-cis: used to ssh to the server of cis
-
-coe: used to ssh to the server of coe
-
-vimhost: used to edit the files in romote machines 
