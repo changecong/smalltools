@@ -1,0 +1,35 @@
+#!/bin/sh
+myFile='Makefile'
+
+# to see if Makefile is exist
+if [ ! -f $myFile ]; then
+echo 'Do not have a Makefile, make a new one'
+touch $myFile
+echo 'done.'
+else
+echo 'Makefile exist'
+exit
+fi
+
+# generate the Makefile
+echo 'CC=g++' >> $myFile
+echo 'CFLAGS=-c -Wall -g' >> $myFile
+echo 'LDFLAGS=' >> $myFile
+echo 'SOURCES=$(wildcard *.cpp)' >> $myFile
+echo 'OBJECTS=$(SOURCES:.cpp=.o)' >> $myFile
+echo 'EXECUTABLE=main' >> $myFile
+echo '' >> $myFile
+echo 'all: $(SOURCES) $(EXECUTABLE)' >> $myFile
+echo '' >> $myFile   
+echo '$(EXECUTABLE): $(OBJECTS)' >> $myFile
+echo '\t$(CC) $(LDFLAGS) $(OBJECTS) -o $@' >> $myFile
+echo '' >> $myFile
+echo '.cpp.o:' >> $myFile
+echo '\t$(CC) $(CFLAGS) $< -o $@' >> $myFile
+echo '' >> $myFile
+echo 'test:' >> $myFile
+echo '\t./$(EXECUTABLE)' >> $myFile
+echo '' >> $myFile 
+echo 'clean:' >> $myFile
+echo '\trm -rf *.o $(EXECUTABLE)' >> $myFile << EOF
+
