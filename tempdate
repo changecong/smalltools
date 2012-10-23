@@ -1,0 +1,2 @@
+#!/bin/sh
+mkdir temp-$(date -d "today" +"%Y%m%d-%H%M%S")

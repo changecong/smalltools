@@ -1,0 +1,25 @@
+#!/bin/sh
+
+# user_name@host_name/your/path/
+#COE='changecong@gateway.coe.neu.edu/~'
+#CIS='changec@login.cis.neu.edu/~'
+#CC='changec3@changecong.com/~/www'
+
+# short cut
+case ${1} in
+coe | COE)
+  HOST=$COE
+  ;;
+cis | CIS)
+  HOST=$CIS
+  ;;
+cc | CC)
+  HOST=$CC
+  ;;
+*)
+  HOST=${1}
+  ;;
+esac
+
+# run vim
+vim scp://$HOST/${2}

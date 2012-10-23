@@ -1,0 +1,25 @@
+#!/bin/sh
+
+# user_name@host_name
+#COE='user_name@host_name'
+#CIS='user_name@host_name'
+#CC='user_name@host_name'
+
+# set short cuts
+case ${1} in
+coe | COE)
+  HOST=$COE
+  ;;
+cis | CIS)
+  HOST=$CIS
+  ;;
+cc | CC)
+  HOST=$CC
+  ;;
+*)
+  HOST=${1}
+  ;;
+esac
+
+# do ssh connection
+ssh $HOST
