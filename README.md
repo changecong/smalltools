@@ -11,6 +11,9 @@ Small Shell Tools
 > chmod a+x &lsaquo;filename&rsaquo;
 >
 > sshhost &lsaquo;host_short_cut&rsaquo;
+
 > vimhost &lsaquo;host_short_cut&rsaquo; &lsaquo;remote_file_name&rsaquo;
+
 > mgen
+
 > tempdate
