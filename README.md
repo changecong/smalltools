@@ -8,9 +8,9 @@ Small Shell Tools
 * tempdate -- generate a directory with the name of "temp-%date%"
 
 ### How To Use
-> chmod a+x \\<filename\>
+> chmod a+x &lsaquo;filename&rsaquo;
 >
-> sshhost <host_short_cut>
-> vimhost <host_short_cut> <remote_file_name>
+> sshhost &lsaquo;host_short_cut&rsaquo;
+> vimhost &lsaquo;host_short_cut&rsaquo; &lsaquo;remote_file_name&rsaquo;
 > mgen
 > tempdate
