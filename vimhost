@@ -1,9 +1,9 @@
 #!/bin/sh
 
 # user_name@host_name/your/path/
-#COE='changecong@gateway.coe.neu.edu/~'
-#CIS='changec@login.cis.neu.edu/~'
-#CC='changec3@changecong.com/~/www'
+#COE='user_name@host_name/~'
+#CIS='user_name@host_name/~'
+#CC='user_name@host_name/~/www'
 
 # short cut
 case ${1} in
