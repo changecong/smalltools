@@ -20,6 +20,9 @@ Small Shell Tools
 
 > mini_test.hpp: insert macros into the code you want to test.
 >> TIME_INIT
+
 >> TIME_START
+
 >> TIME_END
+
 >> TIME_WRITE_TO_FILE("filename", "keyword")
