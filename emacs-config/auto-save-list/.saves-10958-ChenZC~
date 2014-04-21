@@ -1,0 +1,8 @@
+/scpc:pi@192.168.2.10:/home/pi/lab/web/house-management/static/css/main.css
+#_ascpc_bpi@192.168.2.10_b_ahome_api_alab_aweb_ahouse-management_astatic_acss_amain.css#
+/scpc:pi@192.168.2.10:/home/pi/lab/web/house-management/static/js/weather.js
+#_ascpc_bpi@192.168.2.10_b_ahome_api_alab_aweb_ahouse-management_astatic_ajs_aweather.js#
+/scpc:pi@192.168.2.10:/home/pi/lab/web/house-management/templates/dashboard.html
+#_ascpc_bpi@192.168.2.10_b_ahome_api_alab_aweb_ahouse-management_atemplates_adashboard.html#
+/scpc:pi@192.168.2.10:/home/pi/lab/web/house-management/home.py
+#_ascpc_bpi@192.168.2.10_b_ahome_api_alab_aweb_ahouse-management_ahome.py#
